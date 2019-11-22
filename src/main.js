@@ -7,15 +7,17 @@ import { DocCall } from "./docSearch.js";
 $(document).ready(function() {
     $('#inputButton').click(function(event) {
       event.preventDefault();
-      
+      let input = $("#nameInput").val();
       (async () => {
         let docCall = new DocCall();
-        const response = await docCall.nameCall("john");
+        const response = await docCall.nameCall(input);
         return getElements(response)
       })();
 
       function getElements(response) {
-        $(".showName").text(`Name: ${response.data[0].profile.last_name}.`);
+        for (let i = 0; i < response.data.length; i++) {
+          $(".showName").append(`Name: ${response.data[i].profile.last_name}.`);
+        }
       }
 
     });
