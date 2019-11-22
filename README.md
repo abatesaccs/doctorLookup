@@ -32,13 +32,11 @@ _Spec: return a notification that there are no results if the search term does n
 
 ## Setup/Installation Requirements
 
-* _Go to https://github.com/abatesaccs/_
+* _Go to https://github.com/abatesaccs/doctorLookup_
 * _Clone or download all files in the repository (make sure they are contained in the same file!)_
 * _install node.js and npm_
 * _run npm install in the terminal_
 * _run npm start in the terminal_
-
-* _OR go to: https://abatesaccs.github.io//_
 
 _The file may have inconsistencies when using older browser versions_
 

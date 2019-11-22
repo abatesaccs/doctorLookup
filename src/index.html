@@ -1,18 +1,24 @@
 <html>
   <head>
-    <!-- <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> -->
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script type="text/javascript" src="main.js"></script>
     <title>Doc</title>
   </head>
   <body>
     <div class="container">
-      <h1></h1>
-      <label for="input"></label>
-      <input id="input" type="text">
-      <button class="btn-success" id="inputButton"></button>
+      <h1>Enter a Name</h1>
+      <form id="nameform">
+        <label for="nameInput">Your Name:</label>
+        <input id="nameInput" type="text" placeholder="Name">
+        <button class="btn btn-dark" id="inputButton"></button>
+      </form>
+  
+      
       <div class="errors"></div>
       <div class="showName"></div>
       <div class="showInfo"></div>
+      
     </div>
   </body>
 </html>
