@@ -7,16 +7,23 @@
   </head>
   <body>
     <div class="container">
-      <h1>Enter a Name</h1>
+      <h1>Find a Doc</h1>
       <form id="nameform">
-        <label for="nameInput">Your Doctor's Name:</label>
+        <label for="searchMethod">Search Method:</label>
+        <select class="form-control" id="searchMethod">
+            <option value="false">Select an option</option>
+            <option value="first">First name</option>
+            <option value="last">Last name</option>
+            <option value="specialty">Specialty</option>
+        </select>
+        <label for="nameInput">Search for a doctor:</label>
         <input id="nameInput" type="text" placeholder="Name">
         <button class="btn btn-dark" id="inputButton"></button>
       </form>
+      
   
       
       <div class="errors"></div>
-      <div class="showName"></div>
       <div class="showInfo"></div>
       
     </div>
