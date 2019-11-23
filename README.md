@@ -36,13 +36,14 @@ _Spec: return a notification that there are no results if the search term does n
 * _Clone or download all files in the repository (make sure they are contained in the same file!)_
 * _install node.js and npm_
 * _run npm install in the terminal_
+* _create an account through betterdoctor.com and copy the api into a .env file in the root of the directory and make a variable called API_KEY e.g. (API_KEY=[your key])_
 * _run npm start in the terminal_
 
 _The file may have inconsistencies when using older browser versions_
 
 ## Known Bugs
 
-__
+_Bootstrap, and possibly jQuery are not working properly visually_
 
 ## Support and contact details
 
